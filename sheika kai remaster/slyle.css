@@ -1,0 +1,52 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-height: 50px;
+	margin: 20px;
+	color: #870000;
+}
+#products {
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+#contacts {
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+#headerLogo {
+	font-family: 'Jacquard 24';
+	font-weight: 200;
+}
+
+.tovar {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.card {
+	max-width: 300px;
+	border: 2px solid black;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #870000;
+	font-size: 12px;
+	border-radius: 25px;
+	margin: 25px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	margin-top: 75px;
+	margin-left: 15%;
+	margin-right: 15%;
+	max-width: 70vw;
+}
