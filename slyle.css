@@ -9,11 +9,13 @@
 #products {
 	font-family: 'Roboto';
 	font-weight: 300;
+	cursor: pointer;
 }
 
 #contacts {
 	font-family: 'Roboto';
 	font-weight: 300;
+	cursor: pointer;
 }
 
 #headerLogo {
@@ -38,6 +40,13 @@
 	font-size: 12px;
 	border-radius: 25px;
 	margin: 25px;
+	transition: 0.2s ease-in;
+	cursor: pointer;
+}
+.card:hover {
+	border: 10px solid black;
+	transition: 0.2s ease-in;
+	box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .container {
